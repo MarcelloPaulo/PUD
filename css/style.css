@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.topo {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.topo nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.topo nav a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.galeria img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.formulario input, 
+.formulario select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
